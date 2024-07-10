@@ -51,7 +51,7 @@ class Usuario:
                 pos = random.choice(espacos)
                 self.academia.devolver_halter(pos, self.peso)
 
-
+  
 
         if self.tipo == 2:
             pos = random.choice(espacos)
