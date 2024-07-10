@@ -46,10 +46,12 @@ class Usuario:
 
         if self.tipo == 1:
             if self.peso in espacos:
-                self.academia.devolver_halter(self.peso, self.peso)
+                self.academia.devolver_halter(self.peso, self.peso) 
             else:
                 pos = random.choice(espacos)
                 self.academia.devolver_halter(pos, self.peso)
+
+
 
         if self.tipo == 2:
             pos = random.choice(espacos)
