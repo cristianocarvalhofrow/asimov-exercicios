@@ -42,7 +42,7 @@ class Usuario:
         self.academia.pegar_haltere(self.peso)
 
     def finalizar_treino(self):
-        espacos = self.academia.listar_espacos()        
+        espacos = self.academia.listar_espacos()
 
         if self.tipo == 1:
             if self.peso in espacos:
